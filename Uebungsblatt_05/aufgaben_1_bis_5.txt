@@ -1,0 +1,34 @@
+Aufgabe 1: 
+Erklären Sie die Begriffe...
+Variabel: Erzeugtes Objekt (a), welche auf eine Adresse verweist. Referenziert einen ganz bestimmten Wert hinter der Adresse. Referenziert eine Instanz.
+Instanz: Konkretes Datenobjekt im Speicher -> Enthält id, adresse und wert.
+Referenz: Bsp: a = 26; Dann ist a die Referenz, welche auf eine Insanz vom Typ Integer mit dem Wert 26 referenziert
+
+Aufgabe2:
+Die Aufgabe des Garbage Collectors ist es, Speicher, welcher zuvor belegt war, wieder freizugeben. Das passiert, wenn eine Referenz nicht mehr auf eine Instanz zeigt.
+
+Aufgabe 2b:
+Ich würde sagen, dass die Referenzen a und b auf jeweils auf Instanzen mit den Werten '26' und 'Hallo Welt' zeigen. 
+
+Aufgabe 2c:
+Bei der Über- oder Unterschreitung eines Wertebereichs (bei Float bspw.) wird der Wert der Instanz in 'inf' gespeichert. 
+'Nan' steht für 'Not a Number' und ist ein spezieller Gleitkommawert in Python (uvm.), welcher dazu dient undefinierte oder nicht darstellbare Werte zu representieren.Bspw. 0/0 oder die Quadratwurzel einer negativen Zahl.
+
+Aufgabe 2d:
+Unterschieden wird zwischen mutable und immutable Datentypen.
+Also (1.)  während der Laufzeit veränderbar (=mutable): Lists, Bytearrays, Dictionarys, Sets.
+und (2.) während der Laufzeit NICHT veränderbar (=immutable): Integer, Boolean, Float, Complex, String, Tupel, Bytes.
+
+(Letzteres referenziert bei der Veränderung des referenzierten Wertes die Adresse.)    
+
+Aufgabe 3:
+3.1:
+Mit dem Schlüsselword "is" vergleicht man die IDs. Da beide Variablen auf eine Instanz mit unterschiedlichen IDs verweisen, wird die "0" geprinted.
+
+3.2:
+Ja, die Instanz ist jedoch vom Typ String.
+
+3.3:
+Nein, das eine referenziert ein Float-Objekt und das andere ein Integer-Objekt
+
+
